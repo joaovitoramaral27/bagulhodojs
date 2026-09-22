@@ -1,32 +1,176 @@
-body{
+body {
     background-color: rgb(71, 71, 71);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: white;
+    line-height: 1.6;
 }
-body a{
+body a {
     text-decoration: none;
 }
-header{
+header {
     background-color: rgb(0, 217, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0 0 50px 50px;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
+    padding: 20px;
     color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-header a{
-    color: white;
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    text-align: center;
 }
-nav{
+header p {
+    margin: 5px 0 20px;
+    font-size: 1.1rem;
+}
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(0, 156, 184);
     border-radius: 20px;
     width: 90%;
-    height: 30px;
+    max-width: 700px;
+    min-height: 40px;
+    padding: 5px 15px;
+}
+header a {
+    color: white;
+    font-weight: bold;
+    padding: 7px 18px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+main h2 {
+    color: rgb(0, 217, 255);
+    padding-bottom: 8px;
+    margin-top: 45px;
+}
+main p {
+    color: rgb(225, 225, 225);
+}
+section {
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+section h3 {
+    margin-top: 0;
+    color: rgb(0, 217, 255);
+}
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    margin: 10px 5px 10px 0;
+    background-color: rgb(0, 217, 255);
+    color: rgb(30, 30, 30);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ul {
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+    padding: 20px 20px 20px 45px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+li {
+    margin: 8px 0;
+    color: rgb(230, 230, 230);
+}
+picture {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+picture img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    max-height: 450px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 3px solid rgb(0, 156, 184);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 55, 55);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+form label {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(0, 217, 255);
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 8px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+form button {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 40px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+th, td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid rgb(85, 85, 85);
+}
+th {
+    background-color: rgb(0, 156, 184);
+    color: white;
+}
+td {
+    color: rgb(225, 225, 225);
+}
+#Contato {
+    text-align: center;
+    background-color: rgb(0, 156, 184);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px 20px 0 0;
+    font-weight: bold;
 }
