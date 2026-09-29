@@ -7,16 +7,19 @@ const btn2 = document.querySelector(".btn2");
 
 caixa1.addEventListener("click", function() {
     caixa1.style.border = "5px solid white";
+    caixa1.style.backgroundColor = "white";
     console.log("Você clicou na caixa 1");
 });
 
 caixa2.addEventListener("click", function() {
     caixa2.style.border = "5px solid white";
+    caixa2.style.backgroundColor = "white";
     console.log("Você clicou na caixa 2");
 });
 
 caixa3.addEventListener("click", function() {
     caixa3.style.border = "5px solid white";
+    caixa3.style.backgroundColor = "white";
     console.log("Você clicou na caixa 3");
 });
 
@@ -24,10 +27,16 @@ btn1.addEventListener("click", function() {
     caixa1.style.border = "5px solid red";
     caixa2.style.border = "5px solid red";
     caixa3.style.border = "5px solid red";
+    caixa1.style.backgroundColor = "red";
+    caixa2.style.backgroundColor = "red";
+    caixa3.style.backgroundColor = "red";
 });
 
 btn2.addEventListener("click", function() {
     caixa1.style.border = "none";
     caixa2.style.border = "none";
     caixa3.style.border = "none";
+    caixa1.style.backgroundColor = "rgb(55, 55, 55)";
+    caixa2.style.backgroundColor = "rgb(55, 55, 55)";
+    caixa3.style.backgroundColor = "rgb(55, 55, 55)";
 });
